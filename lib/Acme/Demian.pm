@@ -10,11 +10,11 @@ Acme::Demian - The great new Acme::Demian!
 
 =head1 VERSION
 
-Version 0.02_03
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02_03';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -35,11 +35,16 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 sum ( LIST_OF_NUMBERS )
+
+Returns the sum of the numbers.
 
 =cut
 
-sub function1 {
+sub sum {
+  my $sum = 0;
+  $sum += $_ foreach @_;
+  return $sum;
 }
 
 =head2 function2
