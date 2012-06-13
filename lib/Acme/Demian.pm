@@ -1,6 +1,6 @@
 package Acme::Demian;
 
-use 5.006
+use 5.006;
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ Acme::Demian - The great new Acme::Demian!
 
 =head1 VERSION
 
-Version 0.02_02
+Version 0.02_03
 
 =cut
 
-our $VERSION = '0.02_02';
+our $VERSION = '0.02_03';
 
 
 =head1 SYNOPSIS
